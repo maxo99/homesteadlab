@@ -1,16 +1,26 @@
-# Homelab Configuration Docs
-Main repository workspace for projects related to my homelab infrastructure and services.
+# HomesteadLab
 
+Growing my semi-automated, permaculture homestead every day.
 
-## Sub-Projects
-- [insight-stack](https://github.com/maxo99/insight-stack) - Stack of self-hosted data services for ingesting, processing, and presenting real-time data insights via Grafana dashboards.
-    - InfluxDB
-    - Grafana
-    - Docker/Docker Compose
-- [pve](https://github.com/maxo99/pve) - Proxmox Virtual Environment (PVE) infrastructure configuration and deployment.
-    - Proxmox VE
-    - Terraform
-    - Ansible
+- Building a home network of interconnected services and sensors.
+- Tooling includes Proxmox VE (virtualization), OpenTofu/Terraform (infrastructure), Docker (containers), and Ansible (automation).
 
-## Progress
+## Repositories
+
+### [pve](https://github.com/maxo99/pve)
+
+Deployment and configuration of a homelab environment using Proxmox VE for virtualization, Terraform for infrastructure provisioning, and Ansible for ongoing configuration and automation.
+
+### [insight-stack](https://github.com/maxo99/insight-stack)
+
+A stack of self-hosted data services for ingesting, processing, and presenting real-time insights from home automation data using Grafana and InfluxDB.
+
+## Highlights
+
+- Automated, reproducible provisioning of hosts and services
+- Observability-first approach with metrics dashboards
+- Modular infrastructure for incremental growth
+
+## Changes
+
 - [CHANGELOG](/CHANGELOG.md)
